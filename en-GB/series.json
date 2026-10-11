@@ -11,9 +11,6 @@
   "series.index.empty": "No series yet.",
   "series.index.title": "Series",
   "series.masthead.all": "All series",
-  "series.slug.edit": "Edit permalink",
-  "series.slug.format": "Use 3–60 lowercase letters, numbers, and single hyphens.",
-  "series.slug.input": "Series permalink slug",
   "series.table.column.event": "Event",
   "series.table.column.format": "Format",
   "series.table.column.game": "Game"
