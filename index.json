@@ -107,6 +107,12 @@
         "element": ""
       },
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/manual-entrant-controls.tsx",
         "grain": "str",
         "attr": "",
@@ -20682,12 +20688,6 @@
         "element": ""
       },
       {
-        "file": "apps/mobile/app/events/[slug]/index.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      },
-      {
         "file": "apps/web/app/[lang]/events/[slug]/event-desk-rail.tsx",
         "grain": "str",
         "attr": "",
@@ -24048,6 +24048,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
         "attr": "",
@@ -24058,6 +24064,12 @@
   "event.register.method.card.help": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
@@ -24070,6 +24082,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
         "attr": "",
@@ -24081,6 +24099,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
         "attr": "",
@@ -24091,6 +24115,12 @@
   "event.register.method.legend": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/register.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/events/[slug]/event-page-client.tsx",
         "grain": "str",
@@ -26119,6 +26149,17 @@
     "sites": [
       {
         "file": "apps/web/app/[lang]/events/[slug]/event-settings-panels.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "event.tournaments.finished": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/events/[slug]/tournament-toggle-grid.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -30313,6 +30354,17 @@
       }
     ]
   },
+  "mobile.event.series.label": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/mobile/app/events/[slug]/index.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "mobile.event.sets": {
     "accessibleName": false,
     "sites": [
@@ -31395,14 +31447,7 @@
   },
   "mobile.register.loadFailed": {
     "accessibleName": false,
-    "sites": [
-      {
-        "file": "apps/mobile/app/events/[slug]/register.tsx",
-        "grain": "str",
-        "attr": "",
-        "element": ""
-      }
-    ]
+    "sites": []
   },
   "mobile.register.name.help.edit": {
     "accessibleName": false,
@@ -32346,6 +32391,12 @@
     "sites": [
       {
         "file": "apps/mobile/app/(tabs)/index.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/mobile/app/events/[slug]/index.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -40869,6 +40920,61 @@
       }
     ]
   },
+  "tournament.bracketDock.dropOut": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.bracketDock.dropOut.cancel": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.bracketDock.dropOut.confirm": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.bracketDock.dropOut.description": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.bracketDock.dropOut.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/bracket-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.bracketDock.dropped.line": {
     "accessibleName": false,
     "sites": [
@@ -43827,6 +43933,18 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -43877,6 +43995,12 @@
         "grain": "str",
         "attr": "",
         "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
       }
     ]
   },
@@ -43902,6 +44026,12 @@
       },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/game-capture-panel.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -45455,6 +45585,79 @@
       },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-dock.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.order.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.order.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.player.drop": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.player.dropped": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-standing.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.ladder.player.restore": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
         "grain": "str",
         "attr": "",
         "element": ""
@@ -47407,6 +47610,50 @@
       }
     ]
   },
+  "tournament.playground.tour.player.characters.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.characters.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.game.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.game.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.playground.tour.player.plays.body": {
     "accessibleName": false,
     "sites": [
@@ -47497,6 +47744,50 @@
     ]
   },
   "tournament.playground.tour.player.report.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.score.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.score.title": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.stage.body": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/playground/playground-tour-steps.ts",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
+  "tournament.playground.tour.player.stage.title": {
     "accessibleName": false,
     "sites": [
       {
@@ -48007,6 +48298,17 @@
       }
     ]
   },
+  "tournament.pools.dropped": {
+    "accessibleName": false,
+    "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      }
+    ]
+  },
   "tournament.pools.empty": {
     "accessibleName": false,
     "sites": [
@@ -48021,6 +48323,12 @@
   "tournament.pools.error": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
@@ -48150,6 +48458,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
         "attr": "",
@@ -48172,6 +48486,12 @@
     "accessibleName": false,
     "sites": [
       {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
+      {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
         "attr": "",
@@ -48182,6 +48502,12 @@
   "tournament.pools.reorder.save": {
     "accessibleName": false,
     "sites": [
+      {
+        "file": "apps/web/app/[lang]/[game]/t/[slug]/ladder-order-editor.tsx",
+        "grain": "str",
+        "attr": "",
+        "element": ""
+      },
       {
         "file": "apps/web/app/[lang]/[game]/t/[slug]/pools-tab.tsx",
         "grain": "str",
